@@ -1,15 +1,15 @@
-# Ionic Weather App
+# Team-up App
 
-Simple Ionic Weather App using the [openweathermap](openweathermap.org) API to report weather and stores location info in Ionic storage
-
-This was made following the Tutorial by Brad Traversy (@bradtraversy), found [here](https://www.youtube.com/watch?v=qs2n_poLarc)
+Simple Ionic  App using the REST API to get users, do login authentication, etc.
 
 ### Version
 0.1.0
 
-## Notes
+### Version Notes
+0.1.0 
 
-On @bradtraversy tutorial, the wunderground API was used, since they do not offer free API keys anymore, https://openweathermap.org/ was used.
+## Notes
+0.1.0 uses reqres.in fake API
 
 
 ### Installation

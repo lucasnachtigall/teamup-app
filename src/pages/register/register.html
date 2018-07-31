@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Register Account</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <h1 text-center> Register Account</h1>
+
+  <ion-list>
+    <ion-item>
+      <ion-label stacked>Email</ion-label>
+      <ion-input type="email" name="email" [(ngModel)]="model.email"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked>Password</ion-label>
+      <ion-input type="password" name="password" [(ngModel)]="model.password"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <button ion-button block (click)="createAccount()" color="primary"> Create Account</button>
+
+</ion-content>

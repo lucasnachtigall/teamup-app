@@ -1,0 +1,26 @@
+<ion-header>
+    <ion-navbar>
+      <ion-title>Edit User</ion-title>
+    </ion-navbar>
+  </ion-header>
+
+
+  <ion-content padding>
+
+    <h1 text-center> Edit user</h1>
+
+    <ion-list>
+      <ion-item>
+        <ion-label stacked>Name</ion-label>
+        <ion-input type="text" name="first_name" [(ngModel)]="model.first_name"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label stacked>Last Name</ion-label>
+        <ion-input type="text" name="last_name" [(ngModel)]="model.last_name"></ion-input>
+      </ion-item>
+    </ion-list>
+
+    <button ion-button block (click)="save()" color="primary"> Save</button>
+
+  </ion-content>

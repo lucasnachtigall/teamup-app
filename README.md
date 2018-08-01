@@ -6,11 +6,7 @@ Simple Ionic  App using the REST API to get users, do login authentication, etc.
 0.1.0
 
 ### Version Notes
-0.1.0 
-
-## Notes
 0.1.0 uses reqres.in fake API
-
 
 ### Installation
 
